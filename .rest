@@ -3,3 +3,9 @@ GET http://localhost:3000 HTTP/1.1
 
 ### Display joke
 GET http://localhost:3000/joke HTTP/1.1
+
+### Render - Hello world!
+GET https://victor-341w01.onrender.com HTTP/1.1
+
+### Render - Display joke
+GET https://victor-341w01.onrender.com/joke HTTP/1.1

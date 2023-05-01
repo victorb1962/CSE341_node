@@ -2,6 +2,12 @@
 
 Run npm install and npm start from the backend folder in the terminal
 
+   - npm install 
+   - npm install mongodb
+   - npm install express
+   - npm install dotenv
+   - npm start
+   
 Run frontend/index.html with live server or just paste the file path into a browser.
 
 ## Environment variables

@@ -1,0 +1,47 @@
+Week 2 Exercises
+
+Connect to MongoDB
+------------------
+1. Login to MongoDB.com	Use GitHub login: anzac62@gmail.com 
+2. Select Project 0 / Database / Connect / VS Code / copy connect string	mongodb+srv://anzac62:AnzacMDB2023@cluster0.wzl78cp.mongodb.net/test
+
+Test from VS Code	see https://www.mongodb.com/blog/post/quick-start-nodejs-mongodb-how-to-get-connected-to-your-database
+1. Install mongodb	npm install mongodb
+2. Test connection string from MongoDB tab	
+3. Develop w02\demo.js	
+	import MongoClient	const {MongoClient} = require('mongodb');
+	create main function	async function main() {
+				// we'll add code here soon
+				}
+	provide URI		const uri = "mongodb+srv://anzac62:AnzacMDB2023@cluster0.wzl78cp.mongodb.net/test?retryWrites=true&w=majority";
+	create MongoClient instance	const client = new MongoClient(uri);
+4. Execute	node w02\connection.js
+    Results: List of databases from MongoDB / cluster0
+
+Rest Clients
+------------
+Build Node.js RESTful APIs in 10 Minutes, see: https://www.codementor.io/@olatundegaruba/nodejs-restful-apis-in-10-minutes-q0sgsfhbd
+- use Postman to test RESTful client
+
+
+Week 2 Lesson - https://cse341.netlify.app/lesson2
+-------------
+See solutions file: D:\BYU_files\2023-02 SPRING semester\CSE341_WebServices\CSE341-GitHub-solutions
+
+Personal:
+PS D:\BYU_files\2023-02 SPRING semester\CSE341_WebServices\CSE341-node> 
+1. In backend folder use terminal to:
+   - npm install 
+   - npm install mongodb
+   - npm install express
+   - npm install dotenv
+   - npm start
+
+2. Test endpoint using routes.rest
+     routes.rest
+
+node w02\w02_personal\app.js
+
+
+
+

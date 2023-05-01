@@ -1,0 +1,30 @@
+Using cmd:
+  D:\BYU_files\2023-01 WINTER semester\CSE341_WebBackend\CSE341-node\w01> node demo_app.js
+  > Server running at http://127.0.0.1:3000/
+
+
+node demo\demo_app.js
+  Browser:
+  URL:  http://localhost:3000/
+  Text: Hello World
+  Ctrl-C	end webserver
+
+
+node express-hello-world-main\app.js
+  Browser:
+  URL:  http://localhost:3000/
+  Text: Hello from Render!
+  Ctrl-C	end webserver
+
+
+node L01-class-complete\server.js
+  Browser:
+  Text: How did the telephone propose to his girlfriend? ...he gave her a ring.
+  Ctrl-C	end webserver
+
+
+node L01-personal-solution\server.js
+  Browser:
+  Text: Sarah Birch
+  Ctrl-C	end webserver
+

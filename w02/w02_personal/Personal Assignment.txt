@@ -1,0 +1,32 @@
+Overview
+Purpose: Connect API to a database.
+Task: Complete the assignment.
+
+Learning Objectives
+By the end of this assignment the student will be able to do the following:
+
+- Create a database that stores sensitive information securely in an .env file and successfully reads data from MongoDB
+- Create a database that successfully retrieves the data from MongoDB
+- Create a GET request that returns all the data in a MongoDB collection
+- Incorporate security measures to store sensitive database information in a secure way
+- Connect all routes in a Node.js project with a single line of code
+-Separate route rules and api logic by using controller functions
+
+Assignment Description
+For this lesson's personal assignment, you will add to your assignment from the previous lesson where you created a web server and a single GET request. In this assignment, you will create a collection in MongoDB, and then create a GET request that will return data from it. You will also practice using tools that you have been learning over the last few days. Below are the steps to complete this task:
+
+- Run npm start in the terminal of your node project from last lesson to ensure it is working.
+- Create a collection in MongoDB called contacts. Insert at least three documents either for people in this class or people that you know. Each document should have the following fields: firstName, lastName, email, favoriteColor, birthday.
+- Create an .env file to store your MongoDB connection string.
+- Connect your node project to MongoDB.
+- Create a new route file in your node project called contacts.
+- For the following steps, use the debugger in VS Code to help understand what is going on with the data. And use a REST client of your choosing to make http requests to your web server. This REST Client works well.
+- Create a GET request in your contacts route file that will return all of the documents in your contacts collection.
+- Create another GET request in your contacts route file that will return a single document from your contacts collection where an id matches the id from a query parameter.
+- Once these api routes are working, push to GitHub and test on Render to ensure everything works in that environment as well. (NOTE: The connection string stored in your .env file will not ever be pushed to GitHub, which means it won't be published to Render. You will need to add config vars to Render. You can learn how to do this on thedeploy page.
+- Ensure you include a .rest file for testing (similar to what you see in the example video).
+- Push to GitHub.
+- Publish to Render.
+- Create a brief video demonstrating the functionality of your assignment. Upload it to YouTube (public or unlisted).
+- Submit GitHub, Render, and YouTube links in I-Learn.
+- Be sure to review the rubric below to see how you will be graded on this assignment.

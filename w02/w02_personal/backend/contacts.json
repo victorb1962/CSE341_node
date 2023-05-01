@@ -1,0 +1,23 @@
+{
+  "contact": {
+    "firstName": "Robyn",
+    "lastName": "Banks",
+    "email": "robynbanks@wellsfargo.com",
+    "favoriteColor": "Green",
+    "birthday": "12/12/20"
+  },
+  "contact2": {
+    "firstName": "Warren",
+    "lastName": "Peace",
+    "email": "wpeace@tolstoy.com",
+    "favoriteColor": "Purple",
+    "birthday": "07/12/10"
+  },
+  "contact3": {
+    "firstName": "Helen",
+    "lastName": "Beck",
+    "email": "helen@beckfamily.com",
+    "favoriteColor": "Yellow",
+    "birthday": "02/22/95"
+  }
+}

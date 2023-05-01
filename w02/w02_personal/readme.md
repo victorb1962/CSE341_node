@@ -7,3 +7,7 @@ Test the endpoints in the routes.rest file with Rest Client or another similar t
 ### Video
 
 [Video Example for Students without showing all code](https://www.youtube.com/watch?v=MhObHmqk58U)
+
+## vb Notes
+
+add data from /backend/contacts.json to MongoDB / cluster0 / database / test / contacts

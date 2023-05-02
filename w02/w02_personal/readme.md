@@ -7,6 +7,8 @@ Run npm install and npm start from the backend folder in the terminal
    - npm install dotenv
    - npm start
    
+Start MongoDB connection in VS Code
+
 Test the endpoints in the routes.rest file with Rest Client or another similar tool.
 
 ### Video

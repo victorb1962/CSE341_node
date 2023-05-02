@@ -6,7 +6,9 @@ Run npm install and npm start from the backend folder in the terminal
    - npm install express
    - npm install dotenv
    - npm start
-   
+
+Start MongoDB connection in VS Code
+
 Run frontend/index.html with live server or just paste the file path into a browser.
 
 ## Environment variables

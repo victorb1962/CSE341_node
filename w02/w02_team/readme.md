@@ -19,4 +19,5 @@ Don't forget to create the .env file. If you are unsure of how to do this, watch
 
 ## vb Notes
 Add data from /backend/user.json to MongoDB / cluster0 / database / test / user
-In Render add environmental veraible: NODE_VERSION = 16.14.2
+In Render add environmental veriable: NODE_VERSION = 16.14.2
+In Render add environmental veriable: MONGODB_URI = <connection string>

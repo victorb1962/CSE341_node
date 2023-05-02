@@ -17,3 +17,4 @@ Test the endpoints in the routes.rest file with Rest Client or another similar t
 ## vb Notes
 Add data from /backend/contacts.json to MongoDB / cluster0 / database / test / contacts
 In Render add environmental veraible: NODE_VERSION = 16.14.2
+In Render add environmental veriable: MONGODB_URI = <connection string>

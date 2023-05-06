@@ -1,8 +1,5 @@
-// Get environment variable
 const dotenv = require('dotenv');
 dotenv.config();
-
-// Create MongoClient Instance
 const MongoClient = require('mongodb').MongoClient;
 
 let _db;
@@ -31,5 +28,5 @@ const getDb = () => {
 
 module.exports = {
   initDb,
-  getDb,
+  getDb
 };

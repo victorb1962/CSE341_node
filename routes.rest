@@ -1,19 +1,73 @@
 // LOCALHOST
-###
+### Get all contacts
 GET http://localhost:8080/contacts
-###
+
+
+### Get contact by id
 GET http://localhost:8080/contacts/644f6c8d9823b4c1e691b60a
-###
-GET http://localhost:8080/contacts/644f6ca79823b4c1e6920401
-###
-GET http://localhost:8080/contacts/644f6cba9823b4c1e69235c9
+
+
+### Create contact
+POST http://localhost:8080/contacts HTTP/1.1
+content-type: application/json
+
+{
+    "firstName":"Ashley",
+    "lastName":"Weaver",
+    "email":"aWeaver@test.com",
+    "favoriteColor":"Brown",
+    "birthday":"06/19/2000"
+}
+
+
+### PUT contact / update
+PUT http://localhost:8080/contacts/6455f6f59ee6ec4c7cdf2987 HTTP/1.1
+content-type: application/json
+
+{
+    "firstName":"Sarah",
+    "lastName":"Birch",
+    "email":"test@gmail.com",
+    "favoriteColor":"Green",
+    "birthday":"12/12/20"
+}
+### DELETE contact
+DELETE http://localhost:8080/contacts/6455f6f59ee6ec4c7cdf2987 HTTP/1.1
 
 // PRODUCTION Deploy
-###
+### Get all contacts
 GET https://victor-341w01.onrender.com/contacts
-###
+
+
+### Get contact by id
 GET https://victor-341w01.onrender.com/contacts/644f6c8d9823b4c1e691b60a
-###
-GET https://victor-341w01.onrender.com/contacts/644f6ca79823b4c1e6920401
-###
-GET https://victor-341w01.onrender.com/contacts/644f6cba9823b4c1e69235c9
+
+
+### Create contact
+POST https://victor-341w01.onrender.com/contacts HTTP/1.1
+content-type: application/json
+
+{
+    "firstName":"Ashley",
+    "lastName":"Weaver",
+    "email":"aWeaver@test.com",
+    "favoriteColor":"Brown",
+    "birthday":"06/19/2000"
+}
+
+
+### PUT contact
+PUT https://victor-341w01.onrender.com/contacts/6455f6f59ee6ec4c7cdf2987 HTTP/1.1
+content-type: application/json
+
+{
+    "firstName":"Sarah",
+    "lastName":"Birch",
+    "email":"sarahB@gmail.com",
+    "favoriteColor":"Yellow",
+    "birthday":"06/12/20"
+}
+
+
+### DELETE contact
+DELETE https://victor-341w01.onrender.com/contacts/6455f6f59ee6ec4c7cdf2987 HTTP/1.1

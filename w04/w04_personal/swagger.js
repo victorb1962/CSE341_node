@@ -7,7 +7,7 @@ const doc = {
   },
   // host: 'localhost:8080',                   // enable for local
   host: 'victor-341w01.onrender.com', // enable for production
-  schemes: ['http']
+  schemes: ['https']
 };
 
 const outputFile = './swagger.json';

@@ -5,7 +5,7 @@ const doc = {
     title: 'My API',
     description: 'Temple API'
   },
-  // host: 'localhost:8080',                   // enable for local
+  // host: 'localhost:8080',           // enable for local
   host: 'victor-341w01.onrender.com', // enable for production
   schemes: ['https']
 };

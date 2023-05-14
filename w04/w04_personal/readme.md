@@ -35,6 +35,9 @@ Browser tests:
 
 8. https://victor-341w01.onrender.com/contacts
 9. https://victor-341w01.onrender.com/api-docs
+   - GET / contacts /
+   - GET / contacts / {id}
+   - GET / contacts / POST, PUT, DELETE
 
 ### Video
 

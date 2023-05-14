@@ -15,21 +15,26 @@ Test the endpoints in the routes.rest file with Rest Client or another similar t
 Browser tests:
 
 1. http://localhost:8080/ < 'Cannot GET /'
+   - Could use routes.rest
 2. http://localhost:8080/contacts
 3. http://localhost:8080/api-docs
+
    - GET / contacts /
    - GET / contacts / {id}
 
 4. Verify from MongoDB
 
 5. Before uploading to GitHub run the following to make sure you have no issues
+
 - npm run lint
 - npm run format
+- edit swagger.js to use production host: https://victor-341w01.onrender.com/
 
+6. Push to GitHub
+7. Confirm sync with Render
 
-4. http://localhost:8080/ < use routes.rest file
-
-
+8. https://victor-341w01.onrender.com/contacts
+9. https://victor-341w01.onrender.com/api-docs
 
 ### Video
 

@@ -20,8 +20,8 @@ content-type: application/json
 }
 
 
-### PUT contact / update
-PUT http://localhost:8080/contacts/6455f6f59ee6ec4c7cdf2987 HTTP/1.1
+### PUT contact
+PUT http://localhost:8080/contacts/646052944a993941d20d7d40 HTTP/1.1
 content-type: application/json
 
 {
@@ -32,9 +32,11 @@ content-type: application/json
     "birthday":"12/12/20"
 }
 ### DELETE contact
-DELETE http://localhost:8080/contacts/6455f6f59ee6ec4c7cdf2987 HTTP/1.1
+DELETE http://localhost:8080/contacts/646052944a993941d20d7d40 HTTP/1.1
+
 
 // PRODUCTION Deploy
+
 ### Get all contacts
 GET https://victor-341w01.onrender.com/contacts
 
@@ -57,7 +59,7 @@ content-type: application/json
 
 
 ### PUT contact
-PUT https://victor-341w01.onrender.com/contacts/6455f6f59ee6ec4c7cdf2987 HTTP/1.1
+PUT https://victor-341w01.onrender.com/contacts/646052944a993941d20d7d40 HTTP/1.1
 content-type: application/json
 
 {
@@ -70,4 +72,4 @@ content-type: application/json
 
 
 ### DELETE contact
-DELETE https://victor-341w01.onrender.com/contacts/6455f6f59ee6ec4c7cdf2987 HTTP/1.1
+DELETE https://cse341-instructor.herokuapp.com/contacts/646052944a993941d20d7d40 HTTP/1.1

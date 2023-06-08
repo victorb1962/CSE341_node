@@ -2,12 +2,13 @@ const swaggerAutogen = require('swagger-autogen')();
 
 const doc = {
   info: {
-    title: 'My API',
-    description: 'Temple API'
+    title: 'Vics CSE341 Portfolio - Project 2',
+    description: 'Artwork & Art Curator APIs'
   },
-  // host: 'localhost:8080',           // enable for local
-  host: 'victor-341w01.onrender.com', // enable for production
-  schemes: ['https']
+
+  host: 'localhost:8080', // enable for local
+  // host: 'victor-341w01.onrender.com', // enable for production
+  schemes: ['http']
 };
 
 const outputFile = './swagger.json';

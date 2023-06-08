@@ -1,0 +1,18 @@
+{
+  "name": "08classactivity",
+  "version": "1.0.0",
+  "description": "This is the completed collection of code for the lesson 7 class activity",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.1.3",
+    "express": "^4.18.2",
+    "express-openid-connect": "^2.16.0"
+  }
+}
